@@ -7,20 +7,13 @@ html {
     font-size: 62.5%;
 }
 
-/* Paleta de colores
-#a089dc
-#ead1dc
-#1f003b
-#fbd359
- */
-
 /* body */
-.fondoT {
+body {
     background-color:#a089dc;
-}
+} */
 
 /* header */
-.letraB {
+ .letraB {
     color: #ead1dc;
     font-size: 180%;
     text-decoration: none;
@@ -31,34 +24,30 @@ html {
     font-size: 200%;
 }
 
-ul{
+ ul{
     list-style-type: none;
     color: #ead1dc;
     display: inline-block;
 }
 
-nav{
+.ulPosition {
+    position:sticky;
+}
+
+ nav{
     background-color: #1f003b;
     padding-bottom: 35px;
     margin-bottom: 50px;
     border-bottom: solid 1px #fbd359;
 }
 
-.ulPosition {
-/*     padding-left: 30px;
-    padding-right: 30px; */
-    position:sticky;
-/*      left: 100rem;
-    top: -1rem; */
-}
-
-li {
+ li {
     display: inline-block;
     margin-left: 0px;
     margin-right: 20px;
 }
 
-.sizeB img{
+ .sizeB img{
     width: 100%;
     height: 100%;   
 }
@@ -81,7 +70,7 @@ li {
     margin-bottom: 3%;
 }
 
-main {
+ main {
     background-image :url(../multimedia/fondo.png);
     background-position: center;
     border-bottom: double 5px #fbd359;
@@ -89,7 +78,7 @@ main {
     margin-bottom: 10px;
 }
 
-.separacion {
+ .separacion {
     margin: 20px;
 }
 
@@ -129,7 +118,7 @@ h2{
 .sizeTaller{
     font-size: 300%;
 }
-
+ 
 .letraO {
     color:#1f003b;
     font-size: 142%;
@@ -139,7 +128,6 @@ h2{
     height: 80%;
     width: 80%;
 }
-
 
 .tamañoL{
     font-size: 1.2rem;
@@ -151,7 +139,7 @@ h2{
 
 article img{
     padding: 10px;
-}
+} */
 
 p{
     padding-left: 30%;
@@ -175,12 +163,8 @@ textarea{
 }
 
 /* footer */
-.FondoZ{
-    background-color: #1f003b;
-    text-align: center;
-}
 
-.letraD {
+footer h4 {
     color: #fbd359;
     font-size: 1.7rem;
     padding: 1%;
@@ -190,9 +174,11 @@ footer {
     font-size: 1.7rem;
     padding: 7.5px;
     border-top: solid 1px #fbd359;
-}
+    background-color: #1f003b;
+    text-align: center;
+} 
 
-.sizeF{
+ .sizeF{
     font-size: 1.1rem;
 }
 
@@ -207,7 +193,7 @@ footer {
     right: 3%;
 }
 
-.sizeW{
+ .sizeW{
     width: 130px;
     height: 80px;
 }
@@ -217,12 +203,16 @@ footer {
     height: 90px;
 }
 
-.grid {
+ .grid {
     display:grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(2, 45%);
-}
+} 
 
+ .map {
+    width: 400px;
+    height: 300px;
+} 
 @media screen and (max-width: 750px){
     .grid{
         grid-template-columns: repeat(2, 50%);
@@ -234,6 +224,11 @@ footer {
     .sizeTalleres img{
         height: 30%;
         width: 30%;
+    }
+
+    .map{
+        width:200px;
+        height:150px;
     }
 }
 
