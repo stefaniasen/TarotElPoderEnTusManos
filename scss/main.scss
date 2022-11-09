@@ -212,8 +212,8 @@ footer {
         grid-template-rows: repeat(5, 19%);
     }
     
-    h1{
-        font-size: 100%;
+    body h1{
+        font-size: 170%;
     }
     .sizeTalleres img{
         height: 30%;
@@ -230,6 +230,10 @@ footer {
         font-size: 120%;
     }
     ul a{
-        font-size: 100%;
+        font-size: 60%;
+    }
+
+    ul li{
+        margin-right: 5px;
     }
 }
